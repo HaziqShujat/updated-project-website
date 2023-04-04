@@ -17,6 +17,7 @@ body {
     background-color: white;
    
 }
+
    
 .header {
     display: flex;
@@ -332,13 +333,6 @@ margin-top: 5px;
   }
 
 
-
- @media only screen and (max-width: 375px) {
-   
-    
- }
-
-
 #preloder{
     background: #000000ee  url(/loading-92.gif) no-repeat center;;
     height: 100vh;
@@ -348,3 +342,92 @@ margin-top: 5px;
     z-index: 500;
     top: 0px;
 } 
+
+
+
+@media only screen and (max-width: 425px) {
+   body {
+    width: 425px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: white
+   }
+   #head{
+    display: none;
+   }
+   #imbcc{
+    position: absolute;
+    top: -176px;
+    width: 90px;
+    height: 60px;
+    left: 162px;
+}
+
+  .imbc{
+    left: 0;
+  }
+  .warp{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: auto;
+    padding: 0;
+    position: relative;
+    left: 17px;
+  }
+  .wrapper-2{
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    left: 17px;
+  }
+ .prime-main{
+    width: 375px;
+    height: auto;
+
+ }
+ #naci{
+    width: 423px;
+    /* height: auto; */
+    padding: 0;
+ }
+ #alon{
+    width: 375px;
+    height: auto;
+    padding: 0;
+
+ }
+ .soaps-detail{
+    width: 375px;
+    height: auto;
+    padding: 0;
+ }
+ .footer{
+    width: 421px;
+    height: auto;
+    margin: 0;
+ }
+ /* #fot-img{
+    width: 30px;
+    height: 30px;
+ } */
+ .fot-txt {
+    font-size: 7px;
+    top: -6px
+ }
+ .whatsapp-button{
+left: 0;
+ }
+ .company-folo{
+    padding: 0;
+ }
+ #fot-img{
+    width: 30px;
+    height: 30px;
+ }
+    
+}
