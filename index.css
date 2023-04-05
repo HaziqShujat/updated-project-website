@@ -64,8 +64,11 @@ box-sizing: border-box;
 .imbc {
     position: absolute;
     top: 394px;
-    left: 597px;
+    left: 925px;
     padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .prime {
     box-sizing: border-box;
@@ -79,9 +82,7 @@ box-sizing: border-box;
     align-items: center;
     gap: 12px;
     margin-top: 12px;
-    /* position: relative; */
-    /* font-family: 'Roboto'; */
-    
+  
 }
 .company-folo p {
     width: 90%;
@@ -330,7 +331,12 @@ margin-top: 5px;
       transform: translateY(0);
     }
   }
-
+#imbcc{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    left: 70%;
+}
 
 #preloder{
     background: #000000ee  url(/loading-92.gif) no-repeat center;;
