@@ -55,6 +55,9 @@ body {
     color: blue;
 }
 .prime-ma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: black;
     width: 100%;
     height: auto;
@@ -63,12 +66,6 @@ box-sizing: border-box;
 }
 .imbc {
     position: absolute;
-    top: 394px;
-    left: 607px;
-    padding: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .prime {
     box-sizing: border-box;
