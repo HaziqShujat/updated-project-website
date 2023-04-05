@@ -157,8 +157,7 @@ span{
    width: 100%;
     height: auto;
     display: flex;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: 250px 250px;
+    justify-content: center;
      padding: 20px;
     gap: 21px;
     /* margin-top: 61px; */
@@ -411,10 +410,7 @@ margin-top: 5px;
     height: auto;
     margin: 0;
  }
- /* #fot-img{
-    width: 30px;
-    height: 30px;
- } */
+
  .fot-txt {
     font-size: 7px;
     top: -6px
